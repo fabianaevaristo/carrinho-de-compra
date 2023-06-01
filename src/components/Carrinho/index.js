@@ -2,6 +2,7 @@
 import { TableRow, TableCell, TextField } from "@mui/material";
 import { useState } from "react"
 import TabelaProduto from "./TabelaProduto";
+import './carrinho.css'
 
 function Carrinho() {
   const [produtos, setProdutos] = useState([
@@ -10,7 +11,7 @@ function Carrinho() {
       modelo: "Blusa manga longa",
       marca: "Trifil",
       preco: 78,
-      imagem:"https://a-static.mlcdn.com.br/800x560/blusa-trifil…/13752029274/3317955fabfb0fda7bbfaad68144b152.jpg",
+      imagem:"https://i.imgur.com/rznyZgx.jpg",
       tamanho: "M",
       cor: "azul",
       quantidade: 1
@@ -34,6 +35,9 @@ function Carrinho() {
     <TabelaProduto>
           {produtos.map(produto => (
               <TableRow>
+                <TableCell>
+                  <img className="imagem" src={produto.imagem} />
+                </TableCell>
                 <TableCell>{produto.modelo}</TableCell>
                 <TableCell> R$ {produto.preco.toFixed(2)}</TableCell>
                 <TableCell> 
