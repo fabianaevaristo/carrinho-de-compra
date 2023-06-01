@@ -6,8 +6,7 @@
         "marca": "Trifil",
         "preco": 78,
         "imagem": ["https://i.imgur.com/Cdmh58Z.jpeg", 
-        "https://images2.marisa.com.br/medias/sys_master/im…S-FEM-MARR-ML-TRIF-K-Mrm-UNICO-10036697816-C1.jpg",
-        ""],
+        "https://i.imgur.com/rznyZgx.jpg"],
         "cor": {
             "Amarelo": {
                 "tamanho": {
@@ -31,8 +30,7 @@
         "modelo": "Blusa manga curta",
         "marca": "Hering",
         "preco": 59,
-        "imagem": ["https://cf.shopee.com.br/file/2cbababe14c799c40a2902b28ebb4108",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:AN…cjRYW1jH-6mEW2Y1xsS_8jTSMgTU9nUJWoPXJe74&usqp=CAU"],
+        "imagem": ["https://i.imgur.com/FCKZuzr.jpg", "https://i.imgur.com/PeFsyZT.jpg", "https://i.imgur.com/yWTcqkr.jpg"],
         "cor": {
             "Verde": {
                 "tamanho": {
@@ -63,7 +61,8 @@
         "modelo": "Blusa tecido",
         "marca": "Pitanga",
         "preco": 89,
-        "imagem": ["https://http2.mlstatic.com/D_NQ_NP_891788-MLB31201368237_062019-V.jpg"],
+        "imagem": ["https://http2.mlstatic.com/D_NQ_NP_891788-MLB31201368237_062019-V.jpg",
+    "https://i.imgur.com/vnbfgXb.jpg", "https://i.imgur.com/6fsf8Fv.jpg"],
         "cor": {
             "Rosa": {
                 "tamanho": {
@@ -79,7 +78,7 @@
                     "G": 3
                 }
             },
-            "Azul": {
+            "amarela": {
               "tamanho": {
                   "P": 4,
                   "M": 10,
@@ -160,7 +159,7 @@
         "marca": "Poderosa",
         "preco": 69,
         "imagem": ["https://cea.vtexassets.com/arquivos/ids/50997526/B…melha-9573350-Vermelho_1.jpg?v=637713898622270000", 
-        "https://cea.vtexassets.com/arquivos/ids/15741991/B…-Decote-Redondo-Off-White-9729915-Off_White_1.jpg"
+        "https://i.imgur.com/76EoX0a.jpg"
         ],
         "cor": {
             "Vermelha": {
