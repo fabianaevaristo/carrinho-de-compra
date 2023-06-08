@@ -1,5 +1,5 @@
 
-import { TableRow, TableCell, TextField } from "@mui/material";
+import { TableRow, TableCell, TextField, Grid } from "@mui/material";
 import { useState } from "react"
 import TabelaProduto from "./TabelaProduto";
 import './carrinho.css'
@@ -32,7 +32,10 @@ function Carrinho() {
   }
 
   return ( 
-    <TabelaProduto>
+
+    <Grid container spacing={2}>
+      <Grid item xs={8}>
+        <TabelaProduto>
           {produtos.map(produto => (
               <TableRow>
                 <TableCell>
@@ -51,7 +54,17 @@ function Carrinho() {
                 <TableCell> R$ {(produto.quantidade * produto.preco).toFixed(2)}</TableCell>
               </TableRow>
             ))}
-    </TabelaProduto>
+        </TabelaProduto>
+      </Grid>
+      <Grid item xs={4}>
+        <h3>Valor Total</h3>
+        <div></div>
+        <h3>Frete</h3>
+        <div></div>
+      </Grid>
+    </Grid>
+    
+    
   );
 }
 
